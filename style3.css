@@ -1,0 +1,97 @@
+body{
+    margin:0;
+}
+.container{
+    background-color: lightblue;
+    max-width: 430px;
+    height:950px;
+}
+.container .bilgiler{
+    margin-top: -40px;
+}
+.container .img{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+
+}
+.container #baslik{
+    margin: 0;
+    color:rgb(145, 62, 223);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+.container .logo{
+    margin-top: -35px;
+}
+.container .logo1{
+    width:50px;
+    padding: 30px;
+}
+.container .logo p{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: -15px;
+    font-size: 25px;
+}
+.container .yetenekler h2{
+    color:rgb(145, 62, 223);
+    font-size:30px;
+    display:flex;
+    justify-content: center;
+}
+.container .yetenekler ul{
+   font-size: 20px;
+   font-style: italic;
+   margin:10px;
+}
+.container .yetenekler .liste{
+    margin-bottom: 15px;
+}
+.kisisel .ozet{
+    display: flex;
+    justify-content: center;
+    margin-top: -900px;
+    font-size: 30px;
+    color:rgb(145, 62, 223);;
+    margin-right: 300px;
+    padding: 20px;
+}
+.kisisel p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-left:520px;
+    
+}
+.kisisel .egitim h3{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    color: rgb(145, 62, 223);
+    font-size: 30px;
+    padding: 10px;
+}
+.kisisel .egitim p{
+    font-size: 25px;
+    display: flex;
+    justify-content: start;
+}
+.üni h3{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    color: rgb(145, 62, 223);
+    font-size: 30px;
+    padding: 10px;
+}
+.üni p{
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    margin-right: 745px;
+}
